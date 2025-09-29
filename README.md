@@ -118,3 +118,7 @@ train_ds = tf.keras.preprocessing.image_dataset_from_directory(
 
 # ... similar code for test_ds and valid_ds
 ```
+
+## Model performance
+
+
