@@ -16,8 +16,6 @@ This repository contains the starter notebook for a deep learning project aimed 
   
 ---
 
----
-
 ## 🚀 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
