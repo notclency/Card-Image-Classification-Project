@@ -40,6 +40,7 @@ pip install tensorflow numpy matplotlib
 Data Structure
 The notebook expects the image data to be located in a main directory named CardDataset with the following structure:
 
+```
 .
 └── CardDataset/
     ├── train/      (7624 files, 53 classes)
@@ -51,6 +52,7 @@ The notebook expects the image data to be located in a main directory named Card
     └── valid/      (265 files, 53 classes)
         ├── class_A/
         └── class_B/
+```
 The notebook sets the path to the data using the variable: path_to_cards = "CardDataset".
 
 🛠 Installation & Usage
