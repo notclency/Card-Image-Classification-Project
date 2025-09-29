@@ -34,10 +34,14 @@ The core project is built using Python and the TensorFlow ecosystem. You'll need
 
 You can install the primary dependencies using pip:
 
+```
 Bash
 
 pip install tensorflow numpy matplotlib
-Data Structure
+```
+
+## Data Structure
+
 The notebook expects the image data to be located in a main directory named CardDataset with the following structure:
 
 ```
@@ -53,30 +57,36 @@ The notebook expects the image data to be located in a main directory named Card
         ├── class_A/
         └── class_B/
 ```
-The notebook sets the path to the data using the variable: path_to_cards = "CardDataset".
+The notebook sets the path to the data using the variable: `path_to_cards = "CardDataset"`.
 
-🛠 Installation & Usage
-Clone the repository:
+## 🛠 Installation & Usage
+1. Clone the repository:
 
+```
 Bash
 
 git clone [YOUR_REPO_URL]
 cd [YOUR_REPO_NAME]
-Download the Dataset:
-Note: The actual CardDataset is not included. You will need to obtain and place it in the project root directory following the structure above.
+```
 
-Run the Starter Notebook:
+2. Download the Dataset:
+Note: The actual `CardDataset` is not included (FIle too large). You will need to obtain and place it in the project root directory following the structure above.
+
+3. Run the Starter Notebook:
 The project uses a Jupyter Notebook for the initial setup and data loading.
 
+```
 Bash
 
 jupyter notebook starter.ipynb
-Key Setup Code
-The starter.ipynb notebook initializes key parameters and loads the datasets:
+```
+
+## Key Setup Code
+The `starter.ipynb` notebook initializes key parameters and loads the datasets:
 
 Initialization and GPU Check:
 
-Python
+```Python
 
 import tensorflow as tf
 
@@ -87,11 +97,13 @@ path_to_cards = "CardDataset"
 print("TensorFlow version:", tf.__version__) # Output: TensorFlow version: 2.10.0
 print("GPU available:", tf.config.list_physical_devices('GPU'))
 print("Is TensorFlow using GPU?", tf.test.is_built_with_cuda())
-Data Loading Parameters:
+```
+
+## Data Loading Parameters:
 
 The notebook defines the image size and batch size, and then loads the datasets:
 
-Python
+```Python
 
 SIZE = 224
 BATCH_SIZE = 32
@@ -105,3 +117,4 @@ train_ds = tf.keras.preprocessing.image_dataset_from_directory(
 )
 
 # ... similar code for test_ds and valid_ds
+```
