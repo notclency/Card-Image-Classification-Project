@@ -131,30 +131,30 @@ train_ds = tf.keras.preprocessing.image_dataset_from_directory(
 ## Default model
 
 Training and validation accuracy and loss:
-![image info](./images/output.png)
+![image info](./images/img.png)
 
 Default model prediction, (King of diamonds):
-![image info](./images/output_1.png)
+![image info](./images/img_1.png)
 
 Default model prediction, (7 of hearts):
-![image info](./images/output_2.png)
+![image info](./images/img_2.png)
 
 Default model prediction, (Trump joker):
-![image info](./images/output_3.png)
+![image info](./images/img_3.png)
 
 ## Size optimized model
 
 Training and validation accuracy and loss:
-![image info](./images/output_4.png)
+![image info](./images/img_4.png)
 
 Size optimized model prediction, (3 of hearts):
-![image info](./images/output_5.png)
+![image info](./images/img_5.png)
 
 Size optimized model prediction, (3 of diamonds):
-![image info](./images/output_6.png)
+![image info](./images/img_6.png)
 
 Size optimized model prediction, (5 of hearts):
-![image info](./images/output_6.png)
+![image info](./images/img_6.png)
 
 ## Architecture Details:
 ### Best Performance Model
