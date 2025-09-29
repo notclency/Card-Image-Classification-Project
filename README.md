@@ -1,32 +1,38 @@
-🃏 Card Image Classification Project
+## 🃏 Card Image Classification Project
 This repository contains the starter notebook for a deep learning project aimed at classifying images of various types of cards (e.g., playing cards, trading cards, etc.) using a Convolutional Neural Network (CNN) built with TensorFlow and Keras.
 
-✨ Features
-Deep Learning Framework: Utilizes TensorFlow for efficient model building and training.
+---
 
-Image Classification: Designed to classify card images across 53 distinct classes.
+## ✨ Features
+* Deep Learning Framework: Utilizes TensorFlow for efficient model building and training.
 
-Dataset Handling: Efficiently loads training, testing, and validation data using the image_dataset_from_directory utility.
+* Image Classification: Designed to classify card images across 53 distinct classes.
 
-GPU Accelerated: Configured and checked for GPU utilization (CUDA/cuDNN) to speed up training.
+* Dataset Handling: Efficiently loads training, testing, and validation data using the image_dataset_from_directory utility.
 
-Data Visualization: Includes code for visualizing sample images from the dataset.
+* GPU Accelerated: Configured and checked for GPU utilization (CUDA/cuDNN) to speed up training.
 
-🚀 Getting Started
+* Data Visualization: Includes code for visualizing sample images from the dataset.
+  
+---
+
+---
+
+## 🚀 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 Prerequisites
 The core project is built using Python and the TensorFlow ecosystem. You'll need the following libraries:
 
-Python 3.x
+* *Python 3.x*
 
-TensorFlow (The starter notebook uses 2.10.0)
+* *TensorFlow* (The starter notebook uses 2.10.0)
 
-NumPy
+* *NumPy*
 
-Matplotlib
+* *Matplotlib*
 
-CUDA/cuDNN (Recommended for GPU support, as demonstrated in the notebook)
+* *CUDA/cuDNN* (Recommended for GPU support, as demonstrated in the notebook)
 
 You can install the primary dependencies using pip:
 
