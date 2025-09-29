@@ -128,6 +128,9 @@ train_ds = tf.keras.preprocessing.image_dataset_from_directory(
 | Best Performance Model  | 3,491,765       | 3,487,285            | 96.60%        | 50 epochs max, Early Stopping (patience=5), ReduceLROnPlateau | Residual blocks (64→128→256), BatchNorm, Dropout (0.5), Global Average Pooling |
 | Size Optimized Model    | 68,464          | 67,120               | 90.57%        | 100 epochs max, Early Stopping, ReduceLROnPlateau    | SeparableConv2D, Reduced filters (32→64→128), Dropout (0.4), Efficient residual blocks |
 
+## Training and testing plots
+
+
 
 ## Architecture Details:
 ### Best Performance Model
